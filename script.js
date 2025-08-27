@@ -88,7 +88,7 @@ function render(list) {
       
       <div class="card-actions">
         <button class="chip primary" data-toggle="desc">See Description</button>
-        <button class="chip" data-toggle="explain">Easy Explain</button>
+        <button class="chip newcolor " data-toggle="explain">Easy Explain</button>
       </div>
 
       <div class="toggle-content desc hidden">
@@ -108,8 +108,18 @@ function render(list) {
     btn.addEventListener('click', e => {
       const type = e.currentTarget.getAttribute('data-toggle');
       const card = e.currentTarget.closest('.card');
-      const section = card.querySelector(`.${type}`);
-      section.classList.toggle('hidden');
+      const sectionToToggle = card.querySelector(`.${type}`);
+      const isCurrentlyHidden = sectionToToggle.classList.contains('hidden');
+
+      // Close all toggle sections within this card first
+      card.querySelectorAll('.toggle-content').forEach(sec => {
+        sec.classList.add('hidden');
+      });
+
+      // If the clicked section was hidden, open it; otherwise leave all closed
+      if (isCurrentlyHidden) {
+        sectionToToggle.classList.remove('hidden');
+      }
     });
   });
 }
