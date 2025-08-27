@@ -1,0 +1,326 @@
+[
+  {
+    "id": "SIH25004",
+    "serial": 4,
+    "organization": "Ministry of Fisheries, Animal Husbandry & Dairying",
+    "title": "Image based breed recognition for cattle and buffaloes of India",
+    "theme": "Agriculture, FoodTech & Rural Development",
+    "description": "Detailed description about recognizing cattle breeds from images.",
+    "explanation": "A simple explanation of the cattle breed recognition project."
+  },
+  {
+    "id": "SIH25005",
+    "serial": 5,
+    "organization": "Ministry of Fisheries, Animal Husbandry & Dairying",
+    "title": "Image based Animal Type Classification for cattle and buffaloes",
+    "theme": "Agriculture, FoodTech & Rural Development",
+    "description": "Detailed description about classifying animal types from images.",
+    "explanation": "A simple explanation of the animal type classification project."
+  },
+  {
+    "id": "SIH25008",
+    "serial": 8,
+    "organization": "Government of Punjab",
+    "title": "Disaster Preparedness and Response Education System for Schools and Colleges",
+    "theme": "Disaster Management",
+    "description": "Detailed description about the disaster preparedness education system.",
+    "explanation": "A simple explanation of the disaster education project."
+  },
+  {
+    "id": "SIH25009",
+    "serial": 9,
+    "organization": "Government of Punjab",
+    "title": "Gamified Environmental Education Platform for Schools and Colleges",
+    "theme": "Smart Education",
+    "description": "Detailed description about the gamified environmental education platform.",
+    "explanation": "A simple explanation of the environmental education game."
+  },
+  {
+    "id": "SIH25010",
+    "serial": 10,
+    "organization": "Government of Punjab",
+    "title": "Smart Crop Advisory System for Small and Marginal Farmers",
+    "theme": "Agriculture, FoodTech & Rural Development",
+    "description": "Detailed description about the smart crop advisory system.",
+    "explanation": "A simple explanation of the crop advisory project."
+  },
+  {
+    "id": "SIH25011",
+    "serial": 11,
+    "organization": "Government of Punjab",
+    "title": "Smart Curriculum Activity & Attendance App",
+    "theme": "Smart Education",
+    "description": "Detailed description about the curriculum and attendance app.",
+    "explanation": "A simple explanation of the school activity app."
+  },
+  {
+    "id": "SIH25012",
+    "serial": 12,
+    "organization": "Government of Punjab",
+    "title": "Automated Attendance System for Rural Schools",
+    "theme": "Smart Education",
+    "description": "Detailed description about the automated attendance system.",
+    "explanation": "A simple explanation of the attendance system project."
+  },
+  {
+    "id": "SIH25013",
+    "serial": 13,
+    "organization": "Government of Punjab",
+    "title": "Real-Time Public Transport Tracking for Small Cities",
+    "theme": "Transportation & Logistics",
+    "description": "Detailed description about the public transport tracking system.",
+    "explanation": "A simple explanation of the bus tracking project."
+  },
+  {
+    "id": "SIH25016",
+    "serial": 16,
+    "organization": "Government of Punjab",
+    "title": "Automated Student Attendance Monitoring and Analytics System for Colleges",
+    "theme": "Smart Education",
+    "description": "Detailed description about the college attendance monitoring system.",
+    "explanation": "A simple explanation of the college attendance project."
+  },
+  {
+    "id": "SIH25017",
+    "serial": 17,
+    "organization": "Government of Punjab",
+    "title": "Digital Platform for Centralized Alumni Data Management and Engagement",
+    "theme": "Smart Education",
+    "description": "Detailed description about the alumni data management platform.",
+    "explanation": "A simple explanation of the alumni platform project."
+  },
+  {
+    "id": "SIH25019",
+    "serial": 19,
+    "organization": "Government of Punjab",
+    "title": "Digital Learning Platform for Rural School Students in Nabha",
+    "theme": "Smart Education",
+    "description": "Detailed description about the digital learning platform for rural students.",
+    "explanation": "A simple explanation of the rural learning platform."
+  },
+  {
+    "id": "SIH25028",
+    "serial": 28,
+    "organization": "Government of Jharkhand",
+    "title": "Smart Classroom & Timetable Scheduler",
+    "theme": "Smart Education",
+    "description": "Detailed description about the smart classroom and timetable scheduler.",
+    "explanation": "A simple explanation of the classroom scheduler project."
+  },
+  {
+    "id": "SIH25030",
+    "serial": 30,
+    "organization": "Government of Jharkhand",
+    "title": "Al-Based Crop Recommendation for Farmers",
+    "theme": "Agriculture, FoodTech & Rural Development",
+    "description": "Detailed description about the AI-based crop recommendation system.",
+    "explanation": "A simple explanation of the crop recommendation project."
+  },
+  {
+    "id": "SIH25031",
+    "serial": 31,
+    "organization": "Government of Jharkhand",
+    "title": "Crowdsourced Civic Issue Reporting and Resolution System",
+    "theme": "Clean & Green Technology",
+    "description": "Detailed description about the civic issue reporting system.",
+    "explanation": "A simple explanation of the issue reporting app."
+  },
+  {
+    "id": "SIH25032",
+    "serial": 32,
+    "organization": "Government of Jharkhand",
+    "title": "Development of a Smart Digital Platform to Promote Eco & Cultural Tourism in Jharkhand",
+    "theme": "Travel & Tourism",
+    "description": "Detailed description about the tourism platform for Jharkhand.",
+    "explanation": "A simple explanation of the Jharkhand tourism project."
+  },
+  {
+    "id": "SIH25033",
+    "serial": 33,
+    "organization": "Ministry of Corporate Affairs",
+    "title": "Al-Based Smart Allocation Engine for PM Internship Scheme",
+    "theme": "Smart Automation",
+    "description": "Detailed description about the AI-based allocation engine for internships.",
+    "explanation": "A simple explanation of the internship allocation project."
+  },
+  {
+    "id": "SIH25034",
+    "serial": 34,
+    "organization": "Ministry of Corporate Affairs",
+    "title": "Al-Based Internship Recommendation Engine for PM Internship Scheme",
+    "theme": "Smart Education",
+    "description": "Detailed description about the AI-based internship recommendation engine.",
+    "explanation": "A simple explanation of the internship recommendation project."
+  },
+  {
+    "id": "SIH25044",
+    "serial": 44,
+    "organization": "Government of Odisha",
+    "title": "Al-Powered Crop Yield Prediction and Optimization",
+    "theme": "Agriculture, FoodTech & Rural Development",
+    "description": "Detailed description about the AI-powered crop yield prediction system.",
+    "explanation": "A simple explanation of the crop yield prediction project."
+  },
+  {
+    "id": "SIH25048",
+    "serial": 48,
+    "organization": "Government of Odisha",
+    "title": "Gamified Learning Platform for Rural Education",
+    "theme": "Smart Education",
+    "description": "Detailed description about the gamified learning platform for rural education.",
+    "explanation": "A simple explanation of the rural education game."
+  },
+  {
+    "id": "SIH25049",
+    "serial": 49,
+    "organization": "Government of Odisha",
+    "title": "Al-Driven Public Health Chatbot for Disease Awareness",
+    "theme": "MedTech / BioTech / HealthTech",
+    "description": "Detailed description about the AI-driven public health chatbot.",
+    "explanation": "A simple explanation of the health chatbot project."
+  },
+  {
+    "id": "SIH25050",
+    "serial": 50,
+    "organization": "Government of Odisha",
+    "title": "Smart Traffic Management System for Urban Congestion",
+    "theme": "Transportation & Logistics",
+    "description": "Detailed description about the smart traffic management system.",
+    "explanation": "A simple explanation of the traffic management project."
+  },
+  {
+    "id": "SIH25059",
+    "serial": 59,
+    "organization": "Ministry of Social Justice & Empowerment (MOSJE)",
+    "title": "Enhancing Student Awareness on difference between Aadhaar linked and Direct Beneficiary Transfer (DBT) enabled Aadhaar seeded bank account.",
+    "theme": "Miscellaneous",
+    "description": "Detailed description about enhancing student awareness on Aadhaar and DBT.",
+    "explanation": "A simple explanation of the Aadhaar/DBT awareness project."
+  },
+  {
+    "id": "SIH25060",
+    "serial": 60,
+    "organization": "Ministry of Social Justice & Empowerment (MOSJE)",
+    "title": "Real life solutions for Waste Management.",
+    "theme": "Clean & Green Technology",
+    "description": "Detailed description about real-life solutions for waste management.",
+    "explanation": "A simple explanation of the waste management project."
+  },
+  {
+    "id": "SIH25073",
+    "serial": 73,
+    "organization": "Ministry of Youth Affairs and Sports",
+    "title": "Al-Powered Mobile Platform for Democratizing Sports Talent Assessment",
+    "theme": "Fitness & Sports",
+    "description": "Detailed description about the AI-powered sports talent assessment platform.",
+    "explanation": "A simple explanation of the sports talent project."
+  },
+  {
+    "id": "SIH25074",
+    "serial": 74,
+    "organization": "Government of Kerala",
+    "title": "Al-Powered Personal Farming Assistant for Kerala Farmers",
+    "theme": "Agriculture, FoodTech & Rural Development",
+    "description": "Detailed description about the AI-powered farming assistant.",
+    "explanation": "A simple explanation of the farming assistant project."
+  },
+  {
+    "id": "SIH25075",
+    "serial": 75,
+    "organization": "Government of Kerala",
+    "title": "Gamified Platform to Promote Sustainable Farming Practices",
+    "theme": "Agriculture, FoodTech & Rural Development",
+    "description": "Detailed description about the gamified platform for sustainable farming.",
+    "explanation": "A simple explanation of the sustainable farming game."
+  },
+  {
+    "id": "SIH25076",
+    "serial": 76,
+    "organization": "Government of Kerala",
+    "title": "Al-Based Farmer Query Support and Advisory System",
+    "theme": "Agriculture, FoodTech & Rural Development",
+    "description": "Detailed description about the AI-based farmer query support system.",
+    "explanation": "A simple explanation of the farmer support project."
+  },
+  {
+    "id": "SIH25082",
+    "serial": 81,
+    "organization": "Government of Kerala",
+    "title": "Development of a travel related software app that can be installed on mobile phones that could capture trip related information",
+    "theme": "Travel & Tourism",
+    "description": "Detailed description about the travel information capturing app.",
+    "explanation": "A simple explanation of the travel app project."
+  },
+  {
+    "id": "SIH25092",
+    "serial": 87,
+    "organization": "Government of Jammu and Kashmir",
+    "title": "Development of a Digital Mental Health and Psychological Support System for Students in Higher Education",
+    "theme": "MedTech / BioTech / HealthTech",
+    "description": "Detailed description about the digital mental health support system.",
+    "explanation": "A simple explanation of the mental health support project."
+  },
+  {
+    "id": "SIH25093",
+    "serial": 88,
+    "organization": "Government of Jammu and Kashmir",
+    "title": "Centralised Digital Platform for Comprehensive student activity record in HEls",
+    "theme": "Smart Education",
+    "description": "Detailed description about the centralized student activity record platform.",
+    "explanation": "A simple explanation of the student record platform."
+  },
+  {
+    "id": "SIH25094",
+    "serial": 89,
+    "organization": "Government of Jammu and Kashmir",
+    "title": "One-Stop Personalized Career & Education Advisor",
+    "theme": "Smart Education",
+    "description": "Detailed description about the personalized career and education advisor.",
+    "explanation": "A simple explanation of the career advisor project."
+  },
+  {
+    "id": "SIH25101",
+    "serial": 96,
+    "organization": "Government of Rajasthan",
+    "title": "Remote classroom for rural colleges",
+    "theme": "Smart Education",
+    "description": "Detailed description about the remote classroom for rural colleges.",
+    "explanation": "A simple explanation of the remote classroom project."
+  },
+  {
+    "id": "SIH25102",
+    "serial": 97,
+    "organization": "Government of Rajasthan",
+    "title": "Al-based drop-out prediction and counseling system",
+    "theme": "Smart Automation",
+    "description": "Detailed description about the AI-based drop-out prediction system.",
+    "explanation": "A simple explanation of the drop-out prediction project."
+  },
+  {
+    "id": "SIH25103",
+    "serial": 98,
+    "organization": "Government of Rajasthan",
+    "title": "ERP-Based Integrated Student Management system Language Agnostic",
+    "theme": "Smart Automation",
+    "description": "Detailed description about the ERP-based student management system.",
+    "explanation": "A simple explanation of the student management system."
+  },
+  {
+    "id": "SIH25104",
+    "serial": 99,
+    "organization": "Government of Rajasthan",
+    "title": "Chatbot",
+    "theme": "Smart Education",
+    "description": "Detailed description about the chatbot.",
+    "explanation": "A simple explanation of the chatbot project."
+  },
+  {
+    "id": "SIH12507",
+    "serial": 100,
+    "organization": "AICTE",
+    "title": "Develop computer programs to identify the design principles behind the Kolam designs and recreate the kolams.",
+    "theme": "Heritage & Culture",
+    "description": "Detailed description about identifying and recreating Kolam designs.",
+    "explanation": "A simple explanation of the Kolam design project."
+  }
+]

@@ -1,0 +1,80 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CODE CREW — SIH Problem Statements (Revamped)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Topbar -->
+    <header class="topbar" role="banner">
+        <div class="topbar-inner">
+            <div class="brand" aria-label="CODE CREW Home">
+                <div class="logo" aria-hidden="true">CC</div>
+                <span>CODE CREW • SIH Explorer</span>
+            </div>
+            <div></div>
+            <div class="top-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme"
+                    title="Toggle theme">
+                    <span class="icon" id="themeIcon">🌞</span>
+                    <span class="label" id="themeLabel">Light</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Hero / Cover -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div>
+                <!-- <span class="hero-card">
+                    <span class="badge">New</span>
+                    <strong>Revamped UI</strong>
+                    <span class="muted">— responsive filters, dark mode & delightful cards</span>
+                </span> -->
+                <h1>Discover SIH Problem Statements with style ⚡️</h1>
+                <p>Filter by theme, search instantly, and expand cards for quick details. Switch between light and dark
+                    to match your vibe.</p>
+                <div class="cta-row">
+                    <button class="btn" id="startExploring">Start Exploring</button>
+                    <button class="btn secondary" id="scrollToFilters">Jump to Filters</button>
+                </div>
+            </div>
+            <div class="hero-graphic" aria-hidden="true"><img class="image" src="/longlogo.png" alt="" srcset=""></div>
+        </div>
+    </section>
+
+
+    <!-- Controls (fixed responsiveness) -->
+    <div class="controls" id="controls">
+        <input class="search" id="search" type="search" placeholder="Search by title, theme or ID…"
+            aria-label="Search problem statements" />
+        <div class="filter-container">
+            <label for="theme-filter">Filter by Theme</label>
+            <select class="select" id="theme-filter" aria-label="Filter by theme">
+                <option value="all">All Themes</option>
+            </select>
+        </div>
+    </div>
+
+
+    <!-- List -->
+    <main id="problem-list-container">
+        <div class="grid" id="grid"></div>
+        <p class="footer">Built with ❤️ by CODE CREW</p>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
