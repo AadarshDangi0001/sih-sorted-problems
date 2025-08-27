@@ -111,7 +111,7 @@ function render(list) {
 
       <div class="toggle-content desc hidden">
         <h4>Description</h4>
-        <p>${p.desc}</p>
+        <p>${p.description}</p>
       </div>
       <div class="toggle-content explain hidden">
         <h4>Explanation</h4>
