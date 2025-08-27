@@ -35,17 +35,31 @@ themeToggleBtn.addEventListener('click', () => {
 });
 
 
-// === HERO BUTTONS SCROLL ===
+// === HERO BUTTONS ===
 document.getElementById('startExploring').addEventListener('click', () => {
   document.getElementById('problem-list-container').scrollIntoView({ behavior: 'smooth' });
 });
-document.getElementById('scrollToFilters').addEventListener('click', () => {
-  document.getElementById('controls').scrollIntoView({ behavior: 'smooth' });
-});
+const favoritesToggleBtn = document.getElementById('scrollToFilters');
 
 
 // === LOAD PROBLEMS FROM data.json ===
 let problems = [];
+let favoritesMode = false;
+const LIKES_KEY = 'liked_problem_ids';
+function loadLikes() {
+  try {
+    const raw = localStorage.getItem(LIKES_KEY);
+    return new Set(raw ? JSON.parse(raw) : []);
+  } catch (_) {
+    return new Set();
+  }
+}
+function saveLikes(set) {
+  try {
+    localStorage.setItem(LIKES_KEY, JSON.stringify(Array.from(set)));
+  } catch (_) { /* ignore */ }
+}
+let likedIds = loadLikes();
 async function loadData() {
   try {
     const res = await fetch('data.json');
@@ -89,6 +103,10 @@ function render(list) {
       <div class="card-actions">
         <button class="chip primary" data-toggle="desc">See Description</button>
         <button class="chip newcolor " data-toggle="explain">Easy Explain</button>
+        <button class="chip like ${likedIds.has(p.id) ? 'liked' : ''}" data-like="${p.id}">
+          <span class="heart">${likedIds.has(p.id) ? '♥' : '♡'}</span>
+          <span class="label">${likedIds.has(p.id) ? 'Liked' : 'Like'}</span>
+        </button>
       </div>
 
       <div class="toggle-content desc hidden">
@@ -122,6 +140,33 @@ function render(list) {
       }
     });
   });
+
+  // Like buttons
+  grid.querySelectorAll('[data-like]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      const id = e.currentTarget.getAttribute('data-like');
+      if (likedIds.has(id)) {
+        likedIds.delete(id);
+      } else {
+        likedIds.add(id);
+      }
+      saveLikes(likedIds);
+
+      // If we are in favorites mode, re-apply filters to possibly remove unliked cards
+      if (favoritesMode) {
+        applyFilters();
+        return;
+      }
+
+      // Update button state inline without full re-render
+      const isLikedNow = likedIds.has(id);
+      e.currentTarget.classList.toggle('liked', isLikedNow);
+      const heart = e.currentTarget.querySelector('.heart');
+      const label = e.currentTarget.querySelector('.label');
+      if (heart) heart.textContent = isLikedNow ? '♥' : '♡';
+      if (label) label.textContent = isLikedNow ? 'Liked' : 'Like';
+    });
+  });
 }
 
 
@@ -131,15 +176,25 @@ const search = document.getElementById('search');
 function applyFilters() {
   const q = search.value.trim().toLowerCase();
   const sel = themeSelect.value;
-  const filtered = problems.filter(p => {
+  let filtered = problems.filter(p => {
     const matchesTheme = sel === 'all' || p.theme === sel;
     const matchesText = !q || `${p.id} ${p.title} ${p.theme}`.toLowerCase().includes(q);
     return matchesTheme && matchesText;
   });
+  if (favoritesMode) {
+    filtered = filtered.filter(p => likedIds.has(p.id));
+  }
   render(filtered);
 }
 themeSelect.addEventListener('change', applyFilters);
 search.addEventListener('input', applyFilters);
+
+// Favorites toggle
+favoritesToggleBtn.addEventListener('click', () => {
+  favoritesMode = !favoritesMode;
+  favoritesToggleBtn.textContent = favoritesMode ? 'All Problems' : 'See Favorites';
+  applyFilters();
+});
 
 
 // === START ===

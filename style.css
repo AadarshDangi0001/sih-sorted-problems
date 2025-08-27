@@ -135,6 +135,9 @@
     .card-actions { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .2rem; }
     .chip { border: 1px solid var(--border); background: var(--surface); padding: .45rem .7rem; border-radius: 10px; font-weight: 600; cursor: pointer; }
     .chip.primary { border-color: var(--primary-200); color: var(--primary); }
+    .chip.like { display: inline-flex; align-items: center; gap: .35rem; }
+    .chip.like .heart { font-size: 1rem; }
+    .chip.liked { color: var(--danger); border-color: var(--danger); background: color-mix(in oklab, var(--danger) 10%, transparent); }
 
     details { border-top: 1px dashed var(--border); padding-top: .6rem; }
     details[open] { animation: fadeIn .2s ease; }
@@ -165,4 +168,7 @@
 
 .newcolor{
     color:#10b981 !important
+}
+.newcolor2{
+    color:#ee670d !important
 }
