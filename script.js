@@ -105,7 +105,7 @@ function render(list) {
         <button class="chip newcolor " data-toggle="explain">Easy Explain</button>
         <button class="chip like ${likedIds.has(p.id) ? 'liked' : ''}" data-like="${p.id}">
           <span class="heart">${likedIds.has(p.id) ? '♥' : '♡'}</span>
-          <span class="label">${likedIds.has(p.id) ? 'Liked' : 'Like'}</span>
+          <span class="label newcolor3">${likedIds.has(p.id) ? 'Liked' : 'Like'}</span>
         </button>
       </div>
 
