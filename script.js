@@ -129,8 +129,8 @@ function render(list) {
       const sectionToToggle = card.querySelector(`.${type}`);
       const isCurrentlyHidden = sectionToToggle.classList.contains('hidden');
 
-      // Close all toggle sections within this card first
-      card.querySelectorAll('.toggle-content').forEach(sec => {
+      // Close all toggle sections across the entire grid first (ensure only one open globally)
+      grid.querySelectorAll('.toggle-content').forEach(sec => {
         sec.classList.add('hidden');
       });
 
